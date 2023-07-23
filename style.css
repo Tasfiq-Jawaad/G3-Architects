@@ -108,13 +108,17 @@ nav li a {
         padding: 30px 30px;
     }
 
+    nav {
+        flex-direction: column;
+    }
+
     .nav-title {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     nav>ul {
         gap: 10px;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     /* banner section */
