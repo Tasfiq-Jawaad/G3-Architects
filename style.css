@@ -4,7 +4,30 @@
 /* common styles */
 * {
     font-family: 'Work Sans', sans-serif;
-    ;
+    margin: 0;
+    padding: 0;
+}
+
+.txt-heading {
+    color: #131313;
+}
+
+.text-description {
+    color: #727272;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    border: none;
+    background: #FF900E;
+    width: 180px;
+    height: 60px;
+
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 /* header styles */
@@ -16,6 +39,14 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 nav>ul {
@@ -24,7 +55,7 @@ nav>ul {
     gap: 30px;
     justify-content: space-between;
 
-    font-size: 18px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 26px;
@@ -33,4 +64,31 @@ nav>ul {
 nav li a {
     text-decoration: none;
     color: #424242;
+}
+
+/* banner section */
+
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner>img {
+    width: 100%;
+    margin-top: 30px;
 }
