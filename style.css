@@ -123,7 +123,7 @@ main {
 }
 
 .teams-title .quick-list {
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .teams-title .team-features {
@@ -175,6 +175,22 @@ main {
     .banner>img {
         margin-top: 15px;
     }
+
+    /* main section */
+    /* teams section */
+    .teams-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .teams-content {
+        text-align: center;
+    }
+
+    .teams-img-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -215,11 +231,7 @@ main {
 
     /* main section */
     /* teams section */
-    .teams-container {
-        flex-direction: column-reverse;
-        align-items: center;
-        gap: 20px;
-    }
+
 
     .teams-img-container {
         grid-template-columns: repeat(1, 1fr);
