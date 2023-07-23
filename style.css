@@ -24,10 +24,11 @@
     height: 60px;
 
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -77,6 +78,7 @@ nav li a {
 
 .banner-title {
     font-size: 4rem;
+    margin-top: 30px;
 }
 
 .banner-description {
@@ -91,4 +93,44 @@ nav li a {
 .banner>img {
     width: 100%;
     margin-top: 30px;
+}
+
+/* media query  */
+@media screen and (max-width: 576px) {
+    .btn-primary {
+        width: 100px;
+        height: 40px;
+
+        font-size: 0.8rem;
+    }
+
+    header {
+        padding: 30px 30px;
+    }
+
+    .nav-title {
+        font-size: 1rem;
+    }
+
+    nav>ul {
+        gap: 10px;
+        font-size: 0.8rem;
+    }
+
+    /* banner section */
+    .banner-title {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .banner-description {
+        font-size: 0.8rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .banner>img {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
