@@ -98,7 +98,7 @@ nav li a {
 /* main styles */
 main {
     max-width: 1440px;
-    margin: auto;
+    margin: 70px auto;
 }
 
 /* teams section */
@@ -130,6 +130,11 @@ main {
     color: #FF900E;
     font-size: 45px;
     font-weight: 700;
+}
+
+.teams-description {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* media query  */
@@ -206,5 +211,17 @@ main {
 
     .banner>img {
         margin-top: 10px;
+    }
+
+    /* main section */
+    /* teams section */
+    .teams-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .teams-img-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
